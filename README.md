@@ -1,22 +1,5 @@
 ## Hi there 👋
 
-I am Shraddha, PhD in Computer Science with a postdoctoral focus in biotechnology, specializing in Natural Language Processing (NLP), advanced statistical modeling, and machine learning.  
+I’m Shraddha, a PhD in Computer Science and Postdoctoral Scholar at UC San Diego. I work on machine learning and statistical modeling for biological and genomic data, with experience spanning NLP, representation learning, and bioinformatics.
 
-My work integrates computational methods with genetic research to drive insights in bioinformatics.
-
-Key Takeaways applicable in real life:
-
-Bayesian thinking improves decision-making:
-New evidence should refine our beliefs—whether in science, career decisions, or relationships. Adaptability beats rigid thinking.
-
-Genetics is fixed, but biology evolves:
-While DNA remains constant, other 'omics' change over time, influencing both physical and mental health.
-
-Small samples lead to big misinterpretations:
-Drawing conclusions from a single study, one bad experience, or limited data can be misleading. Broad claims require diverse, representative data.
-
-Public perception of biotech is often misaligned with data:
-Fear around gene editing, AI in medicine, or vaccines stems from misinterpreted probabilities rather than actual risks.
-
-Regression to the mean affects drug responses:
-Extreme outliers in trials often revert to average responses over time. True effects require long-term validation.
+My interests include genotype–phenotype modeling, multi-omics integration, and building computational tools that are robust to noise, uncertainty, and limited sample sizes. I use this space to share research code, experiments, and exploratory analyses.
