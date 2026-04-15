@@ -21,6 +21,9 @@ My work combines representation learning, bioinformatics pipelines, and domain-d
 ### Genotype Embeddings for Pharmacogenomics *(ongoing)*
 Developing VAE-based and transformer-based frameworks to learn genotype representations at LD-block level, enabling patient stratification and downstream association analysis beyond SNP-level methods.
 
+### Single-Cell Multi-Omics and Cell-State Analysis (PBMC)
+Built single-cell RNA-seq and RNA+ATAC analysis workflows for cell-state scoring, multimodal integration, and regulatory interpretation, including benchmarking and exploratory cell–cell communication analysis.
+
 ### Long COVID Proteomics Analysis (Pediatric + UK Biobank)
 Analyzed Olink NPX proteomics to identify subtype-specific signatures of Long COVID. Scaled workflows to UK Biobank using PySpark and SQL-based pipelines.
 
@@ -34,7 +37,7 @@ Developed NLP-based models to extract risk signals from clinical and enterprise 
 
 ## Tools
 
-Python · R · PyTorch · scikit-learn · PLINK · DESeq2 · PySpark · SparkSQL · Nextflow · SLURM · UK Biobank RAP · Git · Linux  
+Python · R · PyTorch · scikit-learn · Scanpy · AnnData · PLINK · DESeq2 · PySpark · Spark SQL · Nextflow · SLURM · UK Biobank RAP · Git · Linux 
 
 ---
 
