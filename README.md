@@ -1,46 +1,108 @@
-# Hi there, I’m Shraddha — Applied Scientist 👋
+# Hi there, I’m Shraddha Piparia — Computational Biologist & ML Scientist 👋
 
-Computational biologist with a PhD in Computer Science, focused on applying machine learning and statistical modeling to large-scale biological and clinical data.
+Computational biologist and machine learning scientist working at the intersection of genomics, proteomics, single-cell biology, and reproducible computational pipelines.
 
-My work combines representation learning, bioinformatics pipelines, and domain-driven analysis to uncover disease heterogeneity, treatment response, and biologically meaningful patterns from high-dimensional data.
+I have a Ph.D. in Computer Science and currently work in computational biology, building ML methods and scalable workflows for disease heterogeneity, patient stratification, and treatment response.
 
----
+* Genomics + representation learning
+* Single-cell and multi-omics analysis
+* UK Biobank and large-scale proteomics
+* Reproducible bioinformatics pipelines
 
-## Focus
-
-- Genotype–phenotype modeling and representation learning  
-- Multi-omics integration (genomics, miRNA, proteomics, clinical data)  
-- Biomarker discovery and patient stratification  
-- Scalable analysis of large biomedical datasets (e.g., UK Biobank)  
-- Interpretable machine learning for biological insight 
+🌐 [Personal site](https://shraddhapiparia.github.io/)
 
 ---
 
-## Projects
+## Start Here
 
-### Genotype Embeddings for Pharmacogenomics *(ongoing)*
-Developing VAE-based and transformer-based frameworks to learn genotype representations at LD-block level, enabling patient stratification and downstream association analysis beyond SNP-level methods.
+If you only look at a few projects, these are the best entry points:
 
-### Single-Cell Multi-Omics and Cell-State Analysis (PBMC)
-Built single-cell RNA-seq and RNA+ATAC analysis workflows for cell-state scoring, multimodal integration, and regulatory interpretation, including benchmarking and exploratory cell–cell communication analysis.
-
-### Long COVID Proteomics Analysis (Pediatric + UK Biobank)
-Analyzed Olink NPX proteomics to identify subtype-specific signatures of Long COVID. Scaled workflows to UK Biobank using PySpark and SQL-based pipelines.
-
-### miRNA × ICS Interaction Modeling in Asthma
-Built statistical models to study how miRNAs (e.g., miR-584-5p) modify inhaled corticosteroid response, integrating interaction modeling, mirQTL analysis, and pathway enrichment.
-
-### Clinical NLP & ML (Early Work)
-Developed NLP-based models to extract risk signals from clinical and enterprise data, applying classification and feature engineering for real-world datasets.
+1. **Genotype representation learning** – LD-aware VAE + transformer framework for discovering latent genomic structure and asthma-related biology.
+2. **Single-cell benchmarking** – reproducible single-cell workflows and perturbation-aware cell-state scoring.
+3. **Large-scale proteomics** – Olink NPX and UK Biobank pipelines for Long COVID and disease subtype discovery.
+4. **End-to-end reproducible genomics pipelines** – Nextflow, Docker, and configuration-driven workflows from raw sequencing data to analysis.
 
 ---
 
-## Tools
+## Featured Projects
 
-Python · R · PyTorch · scikit-learn · Scanpy · AnnData · PLINK · DESeq2 · PySpark · Spark SQL · Nextflow · SLURM · UK Biobank RAP · Git · Linux 
+### [blockbased-genotype-embedding-analysis](https://github.com/shraddhapiparia/blockbased-genotype-embedding-analysis)
+
+LD-aware representation learning for genotype data using VAEs and transformers.
+
+* Recovering asthma-related genomic structure without phenotype labels
+* Identified strong HLA class II and PDE4D signals from latent embeddings
+* Demonstrated improved latent organization versus baseline approaches
+
+**Key result:** recovered known asthma biology with embedding structure achieving ARI = 0.999 and revealing multiple independent HLA haplotype axes.
+
+### [sc-cell-state-benchmark](https://github.com/shraddhapiparia/sc-cell-state-benchmark)
+
+Benchmarking perturbation-aware cell-state scoring methods in single-cell RNA-seq data.
+
+* Reproducible Scanpy workflow from preprocessing through scoring and visualization
+* Compared multiple scoring approaches and control gene sets
+* Includes interferon-stimulated PBMC analysis and communication scoring
+
+**Key result:** built an interpretable benchmark where interferon-response programs achieved near-perfect separation while preserving biologically meaningful cell-state differences.
+
+### [proteomics_npx_analysis](https://github.com/shraddhapiparia/proteomics_npx_analysis)
+
+Scalable Olink NPX proteomics analysis for pediatric Long COVID and UK Biobank replication.
+
+* Disease subgroup discovery using WHO-defined symptom profiles
+* Spark + SQL workflows for tens of thousands of participants
+* Regression, enrichment, volcano plots, and replication analyses
+
+**Key result:** developed reproducible pipelines to compare neurocognitive and non-neurocognitive Long COVID subtypes across pediatric and UK Biobank cohorts.
+
+### [from-fastq-to-asthma-gwas](https://github.com/shraddhapiparia/from-fastq-to-asthma-gwas)
+
+Educational but production-style genomics workflow from FASTQ through variant calling, GWAS, and biological interpretation.
+
+* Covers QC, alignment, variant calling, annotation, GWAS, PRS, and eQTL analysis
+* Includes Nextflow, Docker, and reproducible configuration files
+* Designed to demonstrate complete end-to-end genomics workflow design
+
+**Key result:** provides a reproducible template for moving from raw sequencing data to interpretable disease-associated variants.
+
+### [miRNA_ics_interaction](https://github.com/shraddhapiparia/miRNA_ics_interaction)
+
+Analysis of miRNA signatures associated with inhaled corticosteroid response in asthma.
+
+* Differential expression, enrichment, and subgroup analyses
+* Focus on miR-584-5p and neurocognitive phenotype differences
+* Includes publication-ready plots and reproducible analysis scripts
+
+**Key result:** identified candidate miRNA signatures associated with treatment response heterogeneity.
 
 ---
 
-## 
+## Selected Technical Themes
 
-Building end-to-end, reproducible workflows that connect machine learning with real biological questions and clinical relevance.
+### Machine Learning & Modeling
+Python · PyTorch · Representation learning · VAEs · Transformers · SHAP · NLP 
+
+### Computational Biology
+Genomics · GWAS/PLINK · Polygenic Risk Scores · Single-cell RNA-seq · Multi-omics · UK Biobank · Scanpy · Seurat · Olink NPX proteomics · NGS pipelines · WNN integration
+
+### Scalable & Reproducible Infrastructure
+Nextflow · Docker · Conda · SLURM · GitHub Actions · Spark SQL · UK Biobank RAP
+
+### Data & Visualization
+NumPy · Pandas · scikit-learn · Matplotlib · Seaborn · SQL · PySpark
+
+---
+
+
+## Publications and Writing
+
+* Research publications: [https://scholar.google.com/citations?user=T3k1qhwAAAAJ&hl=en&oi=ao]
+* Personal website: [https://shraddhapiparia.github.io/]
+
+---
+
+## What I Care About
+
+I enjoy building computational biology projects that are both scientifically meaningful and technically reproducible: methods that can move from raw data to interpretable biological insight, with clear workflows, versioned environments, and reusable code.
+
