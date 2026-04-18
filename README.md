@@ -95,10 +95,10 @@ NumPy · Pandas · scikit-learn · Matplotlib · Seaborn · SQL · PySpark
 ---
 
 
-## Publications and Writing
+## Research and Writing
 
-* Research publications: [https://scholar.google.com/citations?user=T3k1qhwAAAAJ&hl=en&oi=ao]
-* Personal website: [https://shraddhapiparia.github.io/]
+* [Research publications](https://scholar.google.com/citations?user=T3k1qhwAAAAJ&hl=en&oi=ao)
+* [Technical articles and project write-ups](https://shraddhapiparia.github.io/articles.html)
 
 ---
 
