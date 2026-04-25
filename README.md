@@ -58,13 +58,13 @@ Scalable Olink NPX proteomics analysis for pediatric Long COVID and UK Biobank r
 
 ### [from-fastq-to-asthma-gwas](https://github.com/shraddhapiparia/from-fastq-to-asthma-gwas)
 
-Educational but production-style genomics workflow from FASTQ through variant calling, GWAS, and biological interpretation.
+Educational but production-style genomics workflow from FASTQ through variant calling, GWAS, PRS, and biological interpretation.
 
-* Covers QC, alignment, variant calling, annotation, GWAS, PRS, and eQTL analysis
-* Includes Nextflow, Docker, and reproducible configuration files
-* Designed to demonstrate complete end-to-end genomics workflow design
+- Covers QC, alignment, variant calling, annotation, PCA, GWAS, PRS, and eQTL analysis
+- Uses a centralized Conda environment and documented module-level workflows
+- Excludes large/generated outputs from version control while preserving reproducible commands
 
-**Key result:** provides a reproducible template for moving from raw sequencing data to interpretable disease-associated variants.
+Key result: provides a clean, reproducible template for moving from raw sequencing data to interpretable disease-associated variants.
 
 ### [miRNA_ics_interaction](https://github.com/shraddhapiparia/miRNA_ics_interaction)
 
