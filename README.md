@@ -44,7 +44,7 @@ If you're evaluating my work, these projects best represent my strengths:
 
 ## Featured Projects
 
-### [Genotype Representation Learning](https://github.com/shraddhapiparia/blockbased-genotype-embedding-analysis)
+### [Genotype Representation Learning] [Ongoing] (https://github.com/shraddhapiparia/blockbased-genotype-embedding-analysis)
 
 Discovered latent asthma-related genomic structure without phenotype labels using deep representation learning.
 
@@ -66,7 +66,7 @@ Built a reproducible benchmarking framework for perturbation-aware cell-state sc
 **Impact:** Demonstrated near-perfect separation of interferon-response programs while preserving biologically meaningful cell-state structure.
 
 
-### [proteomics_npx_analysis](https://github.com/shraddhapiparia/proteomics_npx_analysis)
+### [proteomics_npx_analysis] [Ongoing](https://github.com/shraddhapiparia/proteomics_npx_analysis)
 
 Developed scalable pipelines for disease subtype discovery using Olink NPX proteomics across pediatric and UK Biobank cohorts.
 
@@ -76,6 +76,17 @@ Developed scalable pipelines for disease subtype discovery using Olink NPX prote
 
 **Impact:** Enabled reproducible comparison of neurocognitive vs non-neurocognitive Long COVID subtypes at population scale.  
 
+### [COVID-Radiology-Study](https://github.com/shraddhapiparia/COVID-Radiology-Study)
+
+Built an interpretable ML pipeline to predict pediatric COVID-19 status from chest X-ray radiology impressions, combining clinical NLP with SHAP-based explanation. **Published in PLOS ONE (2023).**
+
+- Extracted structured features from 2,572 CXR impressions across 721 pediatric patients using radiology-specific text processing and negation handling
+- Trained incremental Random Forest models with progressively richer clinical context (demographics → symptoms → impressions)
+- Used SHAP values to identify radiographic patterns and clinical features most predictive of pediatric COVID-19
+
+**Impact:** Demonstrated that interpretable ML on radiology impression text — without raw imaging — can surface clinically meaningful patterns of pediatric COVID-19, with full transparency for clinical review.
+
+**Publication:** Piparia S, Defante A, Tantisira K, Ryu J. *Using machine learning to improve our understanding of COVID-19 infection in children.* PLOS ONE 18(2): e0281666 (2023). [DOI](https://doi.org/10.1371/journal.pone.0281666)
 
 ### [from-fastq-to-asthma-gwas](https://github.com/shraddhapiparia/from-fastq-to-asthma-gwas)
 
@@ -112,7 +123,7 @@ Analyzed miRNA signatures associated with treatment response heterogeneity in as
 ## Tech Stack
 
 **Machine Learning**
-PyTorch · Representation Learning · VAEs · Transformers · SHAP  
+PyTorch · Representation Learning · VAEs · Transformers · SHAP · Clinical NLP
 
 **Computational Biology**
 GWAS · PRS · Single-cell RNA-seq · Multi-omics · UK Biobank · Olink  
