@@ -44,7 +44,7 @@ If you're evaluating my work, these projects best represent my strengths:
 
 ## Featured Projects
 
-### [Genotype Representation Learning] [Ongoing] (https://github.com/shraddhapiparia/blockbased-genotype-embedding-analysis)
+### [Genotype Representation Learning] [Ongoing](https://github.com/shraddhapiparia/blockbased-genotype-embedding-analysis)
 
 Discovered latent asthma-related genomic structure without phenotype labels using deep representation learning.
 
@@ -108,6 +108,8 @@ Analyzed miRNA signatures associated with treatment response heterogeneity in as
 - Generated publication-ready visualizations and reproducible workflows  
 
 **Impact:** Identified candidate miRNA markers linked to variability in inhaled corticosteroid response.
+
+**Publication:** Piparia S, Kho A, Hadikhani P, Ban G-Y, Sharma R, Celedon JC, Weiss ST, Mcgeachie M, Tantisira K. *MicroRNA-584-5p As a Key Modulator of Inhaled Corticosteroid Resistance in Asthma.* AJRCCM, 2025. [DOI](https://academic.oup.com/ajrccm/article-abstract/211/Supplement_1/A5441/8336421)
 
 ---
 
