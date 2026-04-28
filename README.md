@@ -48,11 +48,12 @@ If you're evaluating my work, these projects best represent my strengths:
 
 Discovered latent asthma-related genomic structure without phenotype labels using deep representation learning.
 
-- Designed LD-aware VAE + transformer framework for genotype embeddings  
-- Identified HLA class II and PDE4D as independent genomic axes  
-- Captured biologically meaningful structure beyond traditional PCA-based approaches  
+- Designed an LD-aware VAE + transformer framework to learn hierarchical genotype embeddings
+- Identified HLA class II and PDE4D as independent genomic axes
+- Implemented block-level attribution using perturbation (leave-one-block-out) to quantify each region’s contribution to learned embeddings
+- Extended to within-block SNP attribution to localize signal inside LD blocks 
 
-**Impact:** Recovered known asthma biology with ARI = 0.999 and revealed multiple independent HLA haplotype directions.  
+**Impact:** Recovered known asthma biology with ARI = 0.999 and introduced an interpretable framework linking latent genomic representations to specific regions and variants.  
 
 
 ### [sc-cell-state-benchmark](https://github.com/shraddhapiparia/sc-cell-state-benchmark)
