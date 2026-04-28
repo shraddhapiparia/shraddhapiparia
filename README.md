@@ -4,7 +4,7 @@ I build machine learning systems and scalable pipelines to understand disease bi
 
 - Designed representation learning frameworks uncovering latent genomic structure (ARI = 0.999)
 - Built Spark-based pipelines scaling to ~50K UK Biobank participants
-- Developed end-to-end reproducible workflows from raw sequencing data → biological insight
+- Developed end-to-end reproducible workflows from raw sequencing data to biological insight
 
 Ph.D. in Computer Science | Computational Biology (Genomics, ML, Multi-omics)
 
