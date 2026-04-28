@@ -89,6 +89,8 @@ Built an interpretable ML pipeline to predict pediatric COVID-19 status from che
 
 **Publication:** Piparia S, Defante A, Tantisira K, Ryu J. *Using machine learning to improve our understanding of COVID-19 infection in children.* PLOS ONE 18(2): e0281666 (2023). [DOI](https://doi.org/10.1371/journal.pone.0281666)
 
+### **Genomics / GWAS**
+
 ### [from-fastq-to-asthma-gwas](https://github.com/shraddhapiparia/from-fastq-to-asthma-gwas)
 
 Designed an end-to-end, production-style genomics pipeline from raw sequencing data to disease-associated variants.
@@ -99,6 +101,19 @@ Designed an end-to-end, production-style genomics pipeline from raw sequencing d
 
 **Impact:** Provides a scalable, reproducible template for translating raw sequencing data into interpretable genetic insights.
 
+### [ANOVA-like-GWAS-NextFlow](<repo-link>)
+
+Built a reproducible GWAS workflow to identify genetic variants associated with clinically defined asthma subtypes (endotypes).
+
+- Implemented Nextflow + R pipeline for batch-wise genome-wide SNP testing  
+- Applied ANOVA-style models to capture genetic differences across multiple disease subtypes  
+- Designed for HPC/SLURM execution with reproducible inputs and smoke-test examples  
+
+**Impact:** Demonstrates how incorporating clinically defined endotypes into GWAS enables detection of subtype-specific genetic signals beyond traditional case–control designs.
+
+**Publication:** Piparia S, Kho A, Desai B, Wong R, Sharma R, Celedon JC, Weiss ST, Mcgeachie M, Tantisira K. *A principal component analysis-based endophenotype definition for change in lung function and inhaled corticosteroid treatment response in childhood asthma.* Respiratory Research: 26:351 (2025). [DOI](https://link.springer.com/article/10.1186/s12931-025-03426-z)
+
+**Publication:** Piparia S, Hadikhani P, Ziniti J, Hecker J, Kho A, Sharma R, Celedon JC, Weiss ST, Mcgeachie M, Tantisira K. *A Categorical ANCOVA Approach to Severity Endophenotype-Specific GWAS Childhood Asthma.* 2026. [DOI](https://www.mdpi.com/2075-4426/16/1/32)
 
 ### [miRNA_ics_interaction](https://github.com/shraddhapiparia/miRNA_ics_interaction)
 
