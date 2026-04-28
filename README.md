@@ -17,7 +17,7 @@ Ph.D. in Computer Science | Computational Biology (Genomics, ML, Multi-omics)
 I focus on building systems that turn complex biological data into actionable insights:
 
 - Representation learning for genomics (VAEs, transformers, embeddings)
-- Multi-omics integration (genomics + proteomics + single-cell)
+- Multi-omics integration (single-cell RNA-seq + ATAC-seq)
 - Disease stratification and subtype discovery
 - Scalable pipelines for large cohort data (UK Biobank, Olink)
 - Reproducible ML workflows (Nextflow, Docker, Spark)
