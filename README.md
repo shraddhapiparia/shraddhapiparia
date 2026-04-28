@@ -44,7 +44,7 @@ If you're evaluating my work, these projects best represent my strengths:
 
 ## Featured Projects
 
-### [Genotype Representation Learning] [Ongoing](https://github.com/shraddhapiparia/blockbased-genotype-embedding-analysis)
+### Genotype Representation Learning [Ongoing](https://github.com/shraddhapiparia/blockbased-genotype-embedding-analysis)
 
 Discovered latent asthma-related genomic structure without phenotype labels using deep representation learning.
 
@@ -66,7 +66,7 @@ Built a reproducible benchmarking framework for perturbation-aware cell-state sc
 **Impact:** Demonstrated near-perfect separation of interferon-response programs while preserving biologically meaningful cell-state structure.
 
 
-### [proteomics_npx_analysis] [Ongoing](https://github.com/shraddhapiparia/proteomics_npx_analysis)
+### proteomics_npx_analysis [Ongoing](https://github.com/shraddhapiparia/proteomics_npx_analysis)
 
 Developed scalable pipelines for disease subtype discovery using Olink NPX proteomics across pediatric and UK Biobank cohorts.
 
