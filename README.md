@@ -25,16 +25,16 @@ Nextflow · Docker · Spark · SLURM · GitHub Actions
 
 ### [Genotype Representation Learning](https://github.com/shraddhapiparia/blockbased-genotype-embedding-analysis) (Ongoing)
 Discovered latent asthma-related genomic structure without phenotype labels using an LD-aware VAE + transformer framework.
--   **Technical Highlight:** Built a two-stage representation learning pipeline using VAE-derived LD block embeddings followed by transformer-based cross-block contextualization.
--   **Impact:** Linked unsupervised latent structure to interpretable asthma biology, including HLA class II and PDE4D-associated signals.
+-   **Technical Highlight:** Built VAE-derived LD block embeddings, transformer-based cross-block contextualization, and leave-one-block-out perturbation attribution to identify influential genomic regions.
+-   **Impact:** Linked unsupervised latent structure to interpretable asthma biology, including HLA class II and PDE4D signals.
 
 ### [proteomics_npx_analysis](https://github.com/shraddhapiparia/proteomics_npx_analysis) (Ongoing)
 Developed scalable pipelines for disease subtype discovery using Olink NPX proteomics.
 -   **Technical Highlight:** Built Spark + SQL workflows to process population-scale data (~50K UK Biobank participants).
 -   **Impact:** Defined neurocognitive vs. non-neurocognitive Long COVID subtypes using WHO-aligned symptom profiles.
 
-### [sc-cell-state-benchmark](https://github.com/shraddhapiparia/sc-cell-state-benchmark)
-A reproducible benchmarking framework for perturbation-aware cell-state scoring in single-cell RNA-seq.
+### [Single-Cell Immune State Modeling](https://github.com/shraddhapiparia/sc-cell-state-benchmark)
+Reproducible single-cell workflows for perturbation-aware cell-state scoring, with an RNA+ATAC multiome extension for regulatory activity analysis.
 -   **Technical Highlight:** End-to-end Scanpy pipeline comparing gene set scoring and rank-based approaches.
 -   **Impact:** Recovered expected interferon-response biology in stimulated PBMC data and benchmarked scoring methods across cell types.
 
