@@ -1,6 +1,7 @@
 Hi, I’m Shraddha Piparia — Computational Biologist & ML Scientist 👋  
 
 I build machine learning systems and scalable pipelines to understand disease biology from large-scale genomics, proteomics, and single-cell data. My work focuses on disease stratification, treatment-response heterogeneity, and reproducible analysis of high-dimensional biomedical data.
+
 Ph.D. in Computer Science | Computational Biology (Genomics, ML, Multi-omics)
 
 🌐 [Personal site](https://shraddhapiparia.github.io/)
