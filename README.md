@@ -2,7 +2,7 @@ Hi, I’m Shraddha Piparia — Computational Biologist & ML Scientist 👋
 
 I build machine learning systems and scalable pipelines to understand disease biology from large-scale genomics, proteomics, and single-cell data. My work focuses on disease stratification, treatment-response heterogeneity, and reproducible analysis of high-dimensional biomedical data.
 
-Ph.D. in Computer Science | Computational Biology (Genomics, ML, Multi-omics)
+Ph.D. in Computer Science | Computational Biology + ML | Genomics, Proteomics & Single-Cell Multi-omics
 
 🌐 [Personal site](https://shraddhapiparia.github.io/)
 
@@ -25,8 +25,8 @@ Nextflow · Docker · Spark · SLURM · GitHub Actions
 
 ### [Genotype Representation Learning](https://github.com/shraddhapiparia/blockbased-genotype-embedding-analysis) (Ongoing)
 Discovered latent asthma-related genomic structure without phenotype labels using an LD-aware VAE + transformer framework.
--   **Technical Highlight:** Identified HLA class II and PDE4D as independent genomic axes using block-level attribution (leave-one-block-out).
--   **Impact:** Recovered known asthma-related genomic structure and linked latent axes to HLA class II and PDE4D signals.
+-   **Technical Highlight:** Built a two-stage representation learning pipeline using VAE-derived LD block embeddings followed by transformer-based cross-block contextualization.
+-   **Impact:** Linked unsupervised latent structure to interpretable asthma biology, including HLA class II and PDE4D-associated signals.
 
 ### [proteomics_npx_analysis](https://github.com/shraddhapiparia/proteomics_npx_analysis) (Ongoing)
 Developed scalable pipelines for disease subtype discovery using Olink NPX proteomics.
