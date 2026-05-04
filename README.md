@@ -30,10 +30,10 @@ Developed scalable pipelines for disease subtype discovery using Olink NPX prote
 -   **Technical Highlight:** Built Spark + SQL workflows to process population-scale data (~50K UK Biobank participants).
 -   **Impact:** Defined neurocognitive vs. non-neurocognitive Long COVID subtypes using WHO-aligned symptom profiles.
 
-### [Single-Cell Immune State Modeling](https://github.com/shraddhapiparia/sc-cell-state-benchmark)
-Reproducible single-cell workflows for perturbation-aware cell-state scoring, with an RNA+ATAC multiome extension for regulatory activity analysis.
--   **Technical Highlight:** End-to-end Scanpy pipeline comparing gene set scoring and rank-based approaches.
--   **Impact:** Recovered expected interferon-response biology in stimulated PBMC data and benchmarked scoring methods across cell types.
+### [Single-Cell RNA + ATAC Multiome Integration](https://github.com/shraddhapiparia/sc-rna-atac-regulon-benchmark)
+Reproducible single-cell multiome workflow integrating scRNA-seq and scATAC-seq to study cell-type-specific regulatory activity.
+- **Technical Highlight:** Built an RNA + ATAC preprocessing and integration workflow using RNA QC, ATAC QC, dimensionality reduction, WNN-style multiome integration, and regulatory activity analysis.
+- **Impact:** Demonstrates end-to-end handling of multimodal single-cell data, from quality control to integrated cell-state and regulatory interpretation.
 
 ### [COVID-Radiology-Study](https://github.com/shraddhapiparia/COVID-Radiology-Study)
 Interpretable ML to predict pediatric COVID-19 status from radiology text.
