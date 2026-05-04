@@ -11,12 +11,15 @@ Ph.D. in Computer Science | Computational Biology + ML | Genomics, Proteomics & 
 ## Tech Stack
 
 **Machine Learning**
+
 PyTorch · Representation Learning · VAEs · Transformers · SHAP · Clinical NLP
 
 **Computational Biology**
+
 GWAS · PRS · Single-cell RNA-seq · Multi-omics · UK Biobank · Olink  
 
 **Engineering**
+
 Nextflow · Docker · Spark · SLURM · GitHub Actions  
 
 ---
