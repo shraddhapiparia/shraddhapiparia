@@ -10,17 +10,11 @@ Ph.D. in Computer Science | Computational Biology + ML | Genomics, Proteomics & 
 
 ## Tech Stack
 
-**Machine Learning**
+**Machine Learning**: PyTorch · Representation Learning · VAEs · Transformers · SHAP · Clinical NLP
 
-PyTorch · Representation Learning · VAEs · Transformers · SHAP · Clinical NLP
+**Computational Biology**: GWAS · Disease heterogeneity · Single-cell · Multi-omics · UK Biobank · Olink  
 
-**Computational Biology**
-
-GWAS · PRS · Single-cell RNA-seq · Multi-omics · UK Biobank · Olink  
-
-**Engineering**
-
-Nextflow · Docker · Spark · SLURM · GitHub Actions  
+**Engineering**: Nextflow · Docker · Spark · SLURM · GitHub Actions  
 
 ---
 
@@ -52,14 +46,14 @@ A reproducible GWAS workflow to identify variants associated with clinically def
 -   **Technical Highlight:** Nextflow + R pipeline designed for HPC/SLURM execution with ANOVA-style modeling.
 -   **Impact:** Enabled detection of subtype-specific genetic signals beyond traditional case-control designs.
 -   **Publication:** Piparia S, Kho A, Desai B, Wong R, Sharma R, Celedon JC, Weiss ST, Mcgeachie M, Tantisira K. *A principal component analysis-based endophenotype definition for change in lung function and inhaled corticosteroid treatment response in childhood asthma.* Respiratory Research: 26:351 (2025). [DOI](https://link.springer.com/article/10.1186/s12931-025-03426-z)
--   **Publication:** Piparia S, Hadikhani P, Ziniti J, Hecker J, Kho A, Sharma R, Celedon JC, Weiss ST, Mcgeachie M, Tantisira K. *A Categorical ANCOVA Approach to Severity Endophenotype-Specific GWAS Childhood Asthma.* 2026. [DOI](https://www.mdpi.com/2075-4426/16/1/32)
+-   **Publication:** Piparia S, Hadikhani P, Ziniti J, Hecker J, Kho A, Sharma R, Celedon JC, Weiss ST, Mcgeachie M, Tantisira K. *A Categorical ANCOVA Approach to Severity Endophenotype-Specific GWAS Childhood Asthma.* Journal of Personalized Medicine 16.1 (2026). [DOI](https://www.mdpi.com/2075-4426/16/1/32)
 
 
 ### [miRNA_ics_interaction](https://github.com/shraddhapiparia/miRNA_ics_interaction)
 Analysis of miRNA signatures associated with treatment response heterogeneity. 
 -   **Technical Highlight:** Integrated multi-omic datasets to identify miR-584-5p as a key modulator of corticosteroid resistance.
 -   **Impact:** Identified miR-584-5p as a candidate molecular marker linked to variability in corticosteroid response.
--   **Publication:** Piparia S, Kho A, Hadikhani P, Ban G-Y, Sharma R, Celedon JC, Weiss ST, Mcgeachie M, Tantisira K. *MicroRNA-584-5p As a Key Modulator of Inhaled Corticosteroid Resistance in Asthma.* AJRCCM, 2025. [DOI](https://academic.oup.com/ajrccm/article-abstract/211/Supplement_1/A5441/8336421)
+-   **Publication:** Piparia S, Kho A, Hadikhani P, Ban G-Y, Sharma R, Celedon JC, Weiss ST, Mcgeachie M, Tantisira K. *MicroRNA-584-5p As a Key Modulator of Inhaled Corticosteroid Resistance in Asthma.* AJRCCM (2025). [DOI](https://academic.oup.com/ajrccm/article-abstract/211/Supplement_1/A5441/8336421)
 
 ## Additional Project
 ### [from-fastq-to-asthma-gwas](https://github.com/shraddhapiparia/from-fastq-to-asthma-gwas)
@@ -76,5 +70,5 @@ Production-style genomics template from raw sequencing data to interpretable gen
 ---
 
 ## Focus & Values
-I am dedicated to Scientific Reproducibility and Technical Scale. I enjoy building methods that move from raw data to interpretable biological insight through versioned environments, automated workflows, and reusable code.
+I enjoy building methods that move from raw data to interpretable biological insight through versioned environments, automated workflows, and reusable code.
 
