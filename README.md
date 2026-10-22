@@ -20,13 +20,12 @@ Computational Biology + ML | Genomics, Proteomics & Single-Cell Multi-omics
 
 ## Featured Projects
 
-### [Genotype representation learning](https://github.com/shraddhapiparia/blockbased-genotype-embedding-analysis) (in progress)
+### [Genotype representation learning](https://github.com/shraddhapiparia/LD-aware-genotype-embeddings) (in progress)
 
 Does a nonlinear encoder trained on genotypes alone capture more phenotype-relevant signal from an LD block than PCA at the same dimensionality, and is any gain specific to asthma regions?
 
 - Per-block β-VAE with an ordinal decoder, compared against per-block PCA with matched latent dimension, across 464 blocks from asthma and control regions.
-- Hyperparameters fixed before any phenotype was examined; sensitivity to β and free bits reported on genotype-level metrics only.
-- Phenotype evaluation (held-out partial R², primary phenotype IgE) is under way.
+- Cross-block embedding and phenotype evaluation (held-out partial R², primary phenotype IgE) is under way.
 
 ### [Pediatric and adult long COVID proteomics](https://github.com/shraddhapiparia/proteomics_npx_analysis)
 
